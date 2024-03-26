@@ -36,9 +36,13 @@ img {
   margin: 0 auto;
 }
 @media screen and (min-width: 768 px) {
-  max-width: 768px;
+  .container {
+    max-width: 768px;
+  }
 }
 @media screen and (min-width: 1158px) {
-  max-width: 768px;
-  padding: 0 15px;
+  .container {
+    max-width: 768px;
+    padding: 0 15px;
+  }
 }
